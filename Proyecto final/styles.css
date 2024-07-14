@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+h1{
+text-align: center;
+background-color: green;
+border-radius: 15px;
+padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+    background-color: black;
+}
+
+article {
+    flex: 3;
+    padding: 1em;
+}
+
+aside {
+    flex: 1;
+    padding: 7em;
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+    border-left: 1px solid #ddd;
+
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+    
+.rounded-image {
+    border-radius: 15px;
+ 
+    width: auto;
+    height: 726px;
+} 
+
+.instagram-icon {
+    position: absolute;
+    top: 50px;
+   right: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+#Cuidado-Corporal {
+ display: none;
+
+
+
+}
+article section  {
+    color: wheat;
+}
+
+.fondo-seccion {
+    background-image: url('/assets/IMG_2268.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 20px; /* Añade un poco de relleno alrededor del contenido */
+    border-radius: 15px;
+}
+
+
+
+.cremas-lista {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+   
+    
+}
+
+.cremas-lista li {
+    background-color: #add8e6; /* Fondo de color celeste */
+    padding: 10px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.cremas-lista img {
+    border-radius: 15px;
+    max-width: 100px; /* Ajusta el tamaño de las imágenes según sea necesario */
+}
+.cremas-lista p {
+    background-color: black; /* Fondo negro */
+    color: white; /* Letras blancas */
+    padding: 5px;
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    border-radius: 15px;
+}
